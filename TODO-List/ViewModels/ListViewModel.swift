@@ -1,8 +1,7 @@
 
-
 import Foundation
 
-class ListViewModel:ObservableObject {
+class ListViewModel: ObservableObject {
     
     @Published var items: [ItemModel] = []
     

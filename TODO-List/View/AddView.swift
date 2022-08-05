@@ -6,7 +6,7 @@ struct AddView: View {
     @State var textFieldText: String = ""
     
     var body: some View {
-        ScrollView{
+        ScrollView {
             VStack {
                 TextField("type something here..",text: $textFieldText)
                     .padding(.horizontal)
